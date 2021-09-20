@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+@import 'test.scss';
+
+.container {
+    max-width: 1338px;
+    padding: 130px 39px;
+    margin: 0 auto;
+
+    .image-container {
+        width: 30%;
+        height: auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 700px) {
+        padding: 130px 20px;
+    }
+}
